@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Let's Catch</title>
+</head>
+<body>
+    <div class="screen">
+        <h1>Let's Catch!!</h1>
+        <button class="btn" id="start-btn">Play Game</button>
+    </div>
+
+    <div class="screen">
+        <h2>What is your "favorite" Anime Character?</h2>
+        <ul class="insects-list">
+            <li>
+                <button class="choose">
+                    <p>Luffy</p>
+                    <img src="images/luffy.png" alt="luffy">
+                </button>
+            </li>
+            <li>
+                <button class="choose">
+                    <p>Zoro</p>
+                    <img src="images/zoro.png" alt="zoro">
+                </button>
+            </li>
+            <li>
+                <button class="choose">
+                    <p>Robin</p>
+                    <img src="images/robin.png" alt="Robin">
+                </button>
+            </li>
+            <li>
+                <button class="choose">
+                    <p>Tsunade</p>
+                    <img src="images/tsunade.png" alt="tsunade">
+                </button>
+            </li>
+        </ul>
+    </div>
+
+    <div class="screen game-container" id="game-container">
+        <h3 id="time" class="time">Time: 00:00</h3>
+        <h3 id="score" class="score">Score: 0</h3>
+    </div>
+
+    <div id="game-over" class="game-over">Game Over</div>
+
+    <script src="script.js"></script>
+</body>
+</html>
